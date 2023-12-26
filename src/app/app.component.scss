@@ -1,0 +1,30 @@
+// app.component.scss
+
+// Set the container to occupy the full height and width
+.sidenav-container {
+  height: 100vh;
+  width: 100%;
+}
+
+// Style the side navigation
+.sidenav {
+  width: 250px; /* Adjust the width as needed */
+}
+
+// Style the main content
+.mat-sidenav-content {
+  margin-left: 250px; /* Ensure the margin matches the sidenav width */
+  height: 100%;
+}
+
+// Optional: Add some padding to the content area
+.content-area {
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.main-content {
+  flex: 1; /* Fill the available space */
+  padding: 20px; /* Optional: Adjust padding as needed */
+  overflow-y: auto; /* Optional: Enable vertical scrolling if content exceeds height */
+}
+
