@@ -1,30 +1,24 @@
-// app.component.scss
-
-// Set the container to occupy the full height and width
 .sidenav-container {
+  display: flex;
   height: 100vh;
   width: 100%;
 }
 
-// Style the side navigation
 .sidenav {
-  width: 250px; /* Adjust the width as needed */
+  width: 200px;
+  overflow: hidden;
+  transition: width 0.3s ease; /* Smooth transition when opening/closing */
 }
 
-// Style the main content
 .mat-sidenav-content {
-  margin-left: 250px; /* Ensure the margin matches the sidenav width */
-  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-// Optional: Add some padding to the content area
-.content-area {
-  padding: 10px; /* Adjust the padding as needed */
-}
-
-.main-content {
-  flex: 1; /* Fill the available space */
-  padding: 20px; /* Optional: Adjust padding as needed */
-  overflow-y: auto; /* Optional: Enable vertical scrolling if content exceeds height */
+.toolbar {
+  background-color: #fff; /* Example background color for the toolbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
+  z-index: 1; /* Ensure the toolbar stays on top */
 }
 
