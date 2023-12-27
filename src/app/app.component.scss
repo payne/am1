@@ -17,8 +17,16 @@
 }
 
 .toolbar {
-  background-color: #fff; /* Example background color for the toolbar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example shadow */
-  z-index: 1; /* Ensure the toolbar stays on top */
+  display: flex;
+  justify-content: space-between; /* Aligns items in the toolbar */
+  align-items: center; /* Centers items vertically */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.toolbar-title {
+  flex-grow: 1; /* Takes up available space, centering the title */
+  text-align: center; /* Aligns the text center horizontally */
 }
 
