@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { Route1Component } from './route1/route1.component';
 import { Route2Component } from './route2/route2.component';
 import { Route3Component } from './route3/route3.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Route3Component } from './route3/route3.component';
     HomeComponent,
     Route1Component,
     Route2Component,
-    Route3Component
+    Route3Component,
+    AboutComponent
   ],
   imports: [
     MatIconModule,
