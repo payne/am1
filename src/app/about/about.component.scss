@@ -1,0 +1,23 @@
+// anchor link style should be white and not blue
+// anchor link should be underlined in purple
+// anchor link should have a hover effect that changes the background color to purple
+// anchor link should have the same size as h2
+a {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: purple;
+  font-size: 1.5rem;
+
+}
+
+// top margin is 2rem
+// bottom margin is 2rem
+
+p,a,h2 {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+
