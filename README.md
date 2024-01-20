@@ -1,5 +1,7 @@
 # Am1
 
+# Deploy notes from https://github.com/payne/TMTodayNG
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.8.
 
 ## Development server
